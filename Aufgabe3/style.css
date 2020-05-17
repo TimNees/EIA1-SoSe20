@@ -102,6 +102,7 @@ font-family: sans-serif;
     height: 300px;
     transform: translate(57%, -10%);
     display: block;
+    z-index: 1;
 }
 
 .BigFont{
