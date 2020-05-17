@@ -92,15 +92,16 @@ font-family: sans-serif;
     width: 400px;
     height: 40px;
     text-align: left;
+    
 }
 
 .Halbkreis{
-    position: center, relative;
     color: white;
     margin: 0px;
     width: 800px;
     height: 300px;
-    padding-left: 450px;
+    transform: translate(57%, -10%);
+    
 }
 
 .BigFont{
