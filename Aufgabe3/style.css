@@ -1,0 +1,210 @@
+.body {
+    font-family: sans-serif;
+    background-image: url(Hintergrund.png);
+    text-align: center;
+
+}
+
+.Navigation {
+position: fixed;
+right: 100px;
+top: 0px;
+}
+
+.BigFont8{
+    font-family: sans-serif;
+    font-size: 110px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: -11px;
+    position: absolute;
+    top: 3%;
+    left: 40%;
+}
+.menu{
+    position: fixed;
+    right: 100px;
+    top: 0px;
+    background: black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    background: color black;
+}
+
+.menu a::after{
+  content: " |"
+}
+.menu a:hover{
+    color: yellow;
+  }
+
+.menu .current{
+    background: darkgoldenrod;
+   
+}
+
+
+.Bilder{
+color: rgb(0, 0, 0);
+font-size: 25px;
+padding-left: 27%;
+font-family: sans-serif;
+}
+
+#Bilder{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding-left: 0%;
+    }
+
+.Format{
+    transform: translate(450px, 0px);
+    width: 250px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.Videos{
+    position: relative;
+    left: 450px;
+    bottom: 200;
+    width: 250px;
+}
+
+.Kontakt{
+    background: lightcyan;
+    color: black;
+    font-size: 14px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+#Kontakt2{
+    background: lightcyan;
+    color: black;
+    font-size: 14px;
+    width: 400px;
+    height: 40px;
+    text-align: left;
+}
+
+.Halbkreis{
+    position: center, relative;
+    color: white;
+    margin: 0px;
+    width: 800px;
+    height: 300px;
+    padding-left: 450px;
+}
+
+.BigFont{
+    font-family: sans-serif;
+    font-size: 120px;
+    color: white;
+    letter-spacing: -12px;
+    font-weight: bold;
+    top: 9%;
+    left: 50%;
+
+}
+
+.BigFont2{
+    font-family: sans-serif;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    transform: translate(43%, -300%);
+}
+
+.BigFont3{
+    font-family: sans-serif;
+    font-size: 110px;
+    letter-spacing: -12px;
+    color: white;
+    font-weight: bold;
+    transform: translate(40%, -320%);
+}
+.Icon{
+    width: 5px;
+    height: px;
+    top: 9%;
+    left: 10%;
+    transform: translate(850%,-280%);
+    padding-left: 5%;
+}
+
+.Icon img:hover{
+    background-color: lightgrey;
+    opacity: 1;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+.Kontakt3{
+    background: lightgrey;
+    color:  white;
+    letter-spacing: 1px;
+    font-size: 12px;
+    width: 170px;
+    height: 15px;
+    text-align: left;
+    padding: 4px 4px 4px 4px;
+}
+
+#Kontakt4{
+    background: lightgrey;
+    color:  white;
+    letter-spacing: 1px;
+    font-size: 12px;
+    width: 190px;
+    height: 35px;
+    text-align: left;
+    padding: 4px 4px 4px 4px;
+}
+
+.AGB{
+    color: lightgrey;
+}
+
+#Kontakt5{
+    background: lightgrey;
+    color:  white;
+    letter-spacing: 1px;
+    font-size: 12px;
+    width: 70px;
+    height: 15px;
+    text-align: left;
+    padding: 4px 4px 4px 4px;
+}
+
+.BildAboutMe{
+        height: 250px;
+        width: 250px;
+        transform: translate(730px, 0px);
+        }
+}
+
+#BigFont{
+    font-family: sans-serif;
+    font-size: 120px;
+    color: white;
+    letter-spacing: -12px;
+    font-weight: bold;
+    position: fixed;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Icon a:hover{
+    color: yellow;
+  }
+
+.TextFormat{
+    text-align: center;
+}
