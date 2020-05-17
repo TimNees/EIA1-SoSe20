@@ -39,6 +39,10 @@ top: 0px;
 .menu a::after{
   content: " |"
 }
+.menu a::after:hover{
+    color: white;
+  }
+
 .menu a:hover{
     color: yellow;
   }
