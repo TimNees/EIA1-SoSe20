@@ -153,3 +153,4 @@ console.log(resultRelativ);
 console.log(resultChange);
 console.log(resultVergleich);
 console.log("");
+console.log("");
