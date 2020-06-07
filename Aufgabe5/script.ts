@@ -154,3 +154,4 @@ console.log(resultChange);
 console.log(resultVergleich);
 console.log("");
 console.log("");
+console.log("test123");
