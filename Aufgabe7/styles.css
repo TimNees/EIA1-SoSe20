@@ -1,0 +1,103 @@
+body {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#button1{
+    padding: 100px 100px;
+    border-radius: 15px;
+    background-color: rgb(0,196, 255);
+    
+}
+
+#button1:hover{
+    background-color: rgb(0, 23, 153);
+}
+
+#button2{
+    padding: 100px 100px;
+    border-radius: 15px;
+    background-color: rgb(0,196, 255);
+    
+}
+
+#button2:hover{
+    background-color: rgb(0, 23, 153);
+}
+
+#button3{
+    padding: 100px 100px;
+    border-radius: 15px;
+    background-color: rgb(0,196, 255);
+    
+}
+
+#button3:hover{
+    background-color: rgb(0, 23, 153);
+}
+
+#button4{
+    padding: 100px 100px;
+    border-radius: 15px;
+    background-color: rgb(158, 0, 158);
+    
+}
+
+#button4:hover{
+    background-color: rgb(255, 0, 200);
+}
+
+#button5{
+    padding: 100px 100px;
+    border-radius: 15px;
+    background-color: rgb(158, 0, 158);
+    
+}
+
+#button5:hover{
+    background-color: rgb(255, 0, 200);
+}
+
+#button6{
+    padding: 100px 100px;
+    border-radius: 15px;
+    background-color: rgb(158, 0, 158);
+    
+}
+
+#button6:hover{
+    background-color: rgb(255, 0, 200);
+}
+
+#button7{
+    padding: 100px 100px;
+    border-radius: 15px;
+    background-color: rgb(158, 0, 158);
+    
+}
+
+#button7:hover{
+    background-color: rgb(255, 0, 200);
+}
+
+#button8{
+    padding: 100px 100px;
+    border-radius: 15px;
+    background-color: rgb(255, 187, 0);
+    
+}
+
+#button8:hover{
+    background-color: rgb(217, 255, 0);
+}
+
+#button9{
+    padding: 100px 100px;
+    border-radius: 15px;
+    background-color: rgb(255, 187, 0);
+    
+}
+
+#button9:hover{
+    background-color: rgb(217, 255, 0);
+}
