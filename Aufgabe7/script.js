@@ -15,17 +15,6 @@ window.addEventListener("load", function () {
         var sound = new Audio(alleSounds[sampleplay]);
         sound.play();
     }
-    function playbeat() {
-        setInterval(function () {
-            playsample(5);
-        }, 300);
-        setInterval(function () {
-            playsample(8);
-        }, 500);
-        setInterval(function () {
-            playsample(4);
-        }, 700);
-    }
 });
-// Hilfe durch die Antworten von Hannah auf die Fragen von Andy und Moritz in der Fragestunde 12.06.2020
+// Hilfestellung durch Herr Rausch in Besprechung mit Marie & Kenan + Support von Fehlersuche mit Dino ( Mail an Markus)
 //# sourceMappingURL=script.js.map
