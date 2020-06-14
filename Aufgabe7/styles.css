@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: aliceblue;
+    background-color:#000000;
 }
 
 #button1{
@@ -15,7 +15,7 @@ body {
 }
 
 #button2{
-    padding: 100px 100px;
+    padding: 150px 150px;
     border-radius: 15px;
     background-color: #00C4FF;
     
@@ -26,7 +26,7 @@ body {
 }
 
 #button3{
-    padding: 100px 100px;
+    padding: 150px 150px;
     border-radius: 15px;
     background-color: #00C4FF;
     
@@ -37,7 +37,7 @@ body {
 }
 
 #button4{
-    padding: 100px 100px;
+    padding: 150px 150px;
     border-radius: 15px;
     background-color: #9E009E;
     
@@ -49,7 +49,7 @@ body {
 }
 
 #button5{
-    padding: 100px 100px;
+    padding: 150px 150px;
     border-radius: 15px;
     background-color: #9E009E;
     
@@ -60,7 +60,7 @@ body {
 }
 
 #button6{
-    padding: 100px 100px;
+    padding: 150px 150px;
     border-radius: 15px;
     background-color: #9E009E;
     
@@ -71,7 +71,7 @@ body {
 }
 
 #button7{
-    padding: 100px 100px;
+    padding: 150px 150px;
     border-radius: 15px;
     background-color: #9E009E;
     
@@ -82,7 +82,7 @@ body {
 }
 
 #button8{
-    padding: 100px 100px;
+    padding: 150px 150px;
     border-radius: 15px;
     background-color: #FFBB00;
     
@@ -93,12 +93,20 @@ body {
 }
 
 #button9{
-    padding: 100px 100px;
+    padding: 150px 150px;
     border-radius: 15px;
     background-color: #FFBB00;
     
 }
 
 #button9:hover{
+    background-color: #D9FF00;
+}
+
+#playbutton{
+    background-color: #FFBB00;
+}
+
+#playbutton:hover{
     background-color: #D9FF00;
 }
