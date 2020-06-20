@@ -46,6 +46,7 @@ window.addEventListener("load", function () {
         clearInterval(meinInterval);
     }
     //3. Aufgabe Beat Recorden
+    var record = false;
     document.querySelector("#microfon").addEventListener("click", aufnehmen);
     function aufnehmen() {
         if (record == false) {
@@ -55,9 +56,10 @@ window.addEventListener("load", function () {
             record = false;
         }
         //4. Aufgabe Trash
+        var trashSounds;
         document.querySelector("#trash").addEventListener("click", aufnahmedelete);
         function aufnahmedelete() {
-            loop = [];
+            trashSounds = [4, 5, 8];
         }
     }
 });
