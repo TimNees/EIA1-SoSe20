@@ -70,7 +70,7 @@ clearInterval(meinInterval);
 
 //3. Aufgabe Beat Recorden
 
-
+var record: boolean = false;
 
 document.querySelector("#microfon").addEventListener("click", aufnehmen)
 
@@ -84,10 +84,12 @@ if (record == false){
 
 //4. Aufgabe Trash
 
+var trashSounds: [4, 5, 8 ]
+
 document.querySelector("#trash").addEventListener("click", aufnahmedelete)
 
 function aufnahmedelete(){
-    loop = [];
+    trashSounds = [4, 5 , 8];
 }
 
 }
