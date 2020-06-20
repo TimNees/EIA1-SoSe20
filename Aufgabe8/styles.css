@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+
+#button1{
+    padding: 150px 150px;
+    border-radius: 15px;
+    background-color: #00C4FF;
+    
+}
+
+#button1:hover{
+    background-color: #001799;
+}
+
+#button2{
+    padding: 150px 150px;
+    border-radius: 15px;
+    background-color: #00C4FF;
+    
+}
+
+#button2:hover{
+    background-color: #001799;
+}
+
+#button3{
+    padding: 150px 150px;
+    border-radius: 15px;
+    background-color: #00C4FF;
+    
+}
+
+#button3:hover{
+    background-color: #001799;
+}
+
+#button4{
+    padding: 150px 150px;
+    border-radius: 15px;
+    background-color: #9E009E;
+    
+}
+
+#button4:hover{
+    background-color: #FF00C8;
+    
+}
+
+#button5{
+    padding: 150px 150px;
+    border-radius: 15px;
+    background-color: #9E009E;
+    
+}
+
+#button5:hover{
+    background-color: #FF00C8;
+}
+
+#button6{
+    padding: 150px 150px;
+    border-radius: 15px;
+    background-color: #9E009E;
+    
+}
+
+#button6:hover{
+    background-color: #FF00C8;
+}
+
+#button7{
+    padding: 150px 150px;
+    border-radius: 15px;
+    background-color: #9E009E;
+    
+}
+
+#button7:hover{
+    background-color: #FF00C8;
+}
+
+#button8{
+    padding: 150px 150px;
+    border-radius: 15px;
+    background-color: #FFBB00;
+    
+}
+
+#button8:hover{
+    background-color: #D9FF00;
+}
+
+#button9{
+    padding: 150px 150px;
+    border-radius: 15px;
+    background-color: #FFBB00;
+    
+}
+
+#button9:hover{
+    background-color: #D9FF00;
+}
+
+#playbutton{
+    
+}
+
+#playbutton:hover{
+    
+}
+
+.fas fa-play{
+    position: absolute;
+}
