@@ -21,7 +21,7 @@ function playsample(sampleplay: number) {
     var sound = new Audio(alleSounds[sampleplay]);
     sound.play();
     if (record == true) {
-        sound.push(sampleplay)
+        trashSound.push(sampleplay)
     }
 }
 
@@ -40,6 +40,9 @@ function loop() {
 
         meinInterval = setInterval(function () {
         playsample(meineZaehlervariable++);             //meineZaehlervariable++
+        if (meineZaehlervariable >=3) {
+            meineZaehlervariable = 0; 
+        }
     }, 800);
     
 }
@@ -84,7 +87,7 @@ if (record == false){
 
 //4. Aufgabe Trash
 
-var trashSounds: [4, 5, 8 ]
+var trashSounds: number [] = [4, 5, 8];
 
 document.querySelector("#trash").addEventListener("click", aufnahmedelete)
 
@@ -102,4 +105,4 @@ function aufnahmedelete(){
 
 });
 
-// Hilfestellung durch Herr Rausch in Besprechung mit Anna, Andy  & Marcus
+// Hilfestellung durch Herr Rausch in Besprechung mit Anna, Andy  &  ganz viele Mails mit Marcus :D
