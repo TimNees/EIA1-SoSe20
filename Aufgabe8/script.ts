@@ -21,7 +21,7 @@ function playsample(sampleplay: number) {
     var sound = new Audio(alleSounds[sampleplay]);
     sound.play();
     if (record == true) {
-        trashSound.push(sampleplay)
+        trashSounds.push(sampleplay)
     }
 }
 
@@ -83,6 +83,7 @@ if (record == false){
     record = true
 } else {
     record = false
+}
 }
 
 //4. Aufgabe Trash
