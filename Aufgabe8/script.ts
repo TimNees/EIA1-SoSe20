@@ -105,4 +105,4 @@ function aufnahmedelete(){
 
 });
 
-// Hilfestellung durch Herr Rausch in Besprechung mit Anna, Andy  &  ganz viele Mails mit Marcus :D
+// Hilfestellung durch Herr Rausch in Besprechung mit Anna, Andy  &  ganz viele Mails mit Marcus 
