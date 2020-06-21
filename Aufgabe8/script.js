@@ -66,5 +66,5 @@ window.addEventListener("load", function () {
         }
     }
 });
-// Hilfestellung durch Herr Rausch in Besprechung mit Anna, Andy  &  ganz viele Mails mit Marcus :D
+// Hilfestellung durch Herr Rausch in Besprechung mit Anna, Andy  &  ganz viele Mails mit Marcus 
 //# sourceMappingURL=script.js.map
