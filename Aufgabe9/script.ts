@@ -1,12 +1,11 @@
 let myList: string[] = ["Hausaufgaben", "Video schneiden", "Lernen"];
 
-var trash: HTMLElement = document.querySelector(".fa-trash-alt");
-
+drawList();
 
 function drawList() {
     document.querySelector("#todos").innerHTML= "";
     for (let index = 0; index < myList.length; index++) {
-        document.querySelector("#todos").innerHTML += "<li>" "<input type= "checkbox""> + myList[index] + "<i class="fas fa-trash-alt" id="trash>" </i>" + "<li>";
+        document.querySelector("#todos").innerHTML += "<div>" + myList[index] + "<div>";
 }
 }
 
@@ -23,8 +22,6 @@ document.querySelector("#trash").addEventListener("click", eintragloeschen )
 function eintragLoeschen() {
     clearInterval(index);
 }
-
-
 drawList();
 
 
