@@ -7,6 +7,8 @@ function drawList() {
     for (let index = 0; index < myList.length; index++) {
         document.querySelector("#todos").innerHTML += "<div>" + "<input type='checkbox'>" + myList[index] + "<i class='fas fa-trash-alt'id=delete></i>" + "<div>";
     }
+    var total = document.querySelector("#total");
+    total.innerHTML = myList.length;
 }
 document.querySelector("#newTodoButton").addEventListener("click", addNewElement);
 function addNewElement() {
