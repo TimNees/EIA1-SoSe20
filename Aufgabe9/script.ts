@@ -6,6 +6,13 @@ function drawList() {
     document.querySelector("#todos").innerHTML = "";
     for (let index = 0; index < myList.length; index++) {
         document.querySelector("#todos").innerHTML += "<div>" + "<input type='checkbox'>" + myList[index] + "<i class='fas fa-trash-alt'id=delete></i>" + "<div>";
+        var close: HTMLElement = document.getElementsByClassName("fas fa-trash-alt");
+        var i;
+        for (i = 0; i < close.length; i++) {
+        close[i].onclick = function () {
+        var div = this.parentElement;
+        div.style.display = "none";
+    
     }
     var total: HTMLElement = document.querySelector("#total");
         total.innerHTML = myList.length;
