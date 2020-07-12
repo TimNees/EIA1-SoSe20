@@ -204,4 +204,6 @@ function deleteTodo(index) {
      */
     drawListToDOM();
 }
+//In Zusammenarbeit mit Moritz übers Wochende 
+
 //# sourceMappingURL=script.js.map
